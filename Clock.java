@@ -24,7 +24,7 @@ public class Clock
       } else if (hour > 12 && hour < 18) {
         System.out.println("afternoon");
       } else if (hour > 18 && hour < 24) {
-        System.out.println("eveningt");
+        System.out.println("evening");
       }
     }
   }

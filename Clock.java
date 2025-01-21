@@ -2,13 +2,19 @@ public class Clock
 {
   public static void main(String[] args)
   {
-    int clone1 = 23;
-    int clone2 = 10;
-    int clone3 = 0;
+    int time1 = 23;
+    int time2 = 10;
+    int time3 = 0;
+    int time4 = 13;
+    int time5 = 12;
+    int time6 = 18;
 
-    timeOfDay(clone1);
-    timeOfDay(clone2);
-    timeOfDay(clone3);
+    timeOfDay(time1);
+    timeOfDay(time2);
+    timeOfDay(time3);
+    timeOfDay(time4);
+    timeOfDay(time5);
+    timeOfDay(time6);
   }
 
   private static void timeOfDay(int hour) {
